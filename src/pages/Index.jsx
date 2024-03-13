@@ -83,6 +83,9 @@ const Index = () => {
             <Heading as="h2" size="xl" mb={4}>
               Pricing
             </Heading>
+            <Text fontSize="lg" mb={8}>
+              <strong>MyOCSP</strong> streamlines digital certificate validation, offering real-time status checks without the hassle of managing Certificate Revocation Lists (CRLs). Our service integrates effortlessly with your existing security setup, ensuring rapid deployment and immediate efficiency gains.
+            </Text>
             <Grid templateColumns="repeat(3, 1fr)" gap={8}>
               <GridItem>
                 <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={6}>
