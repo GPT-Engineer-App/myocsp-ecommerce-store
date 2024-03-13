@@ -70,11 +70,13 @@ const Index = () => {
             <Text fontSize="lg" mb={8}>
               Integrate MyOCSP into your application with our well-documented OpenAPI. Simplify certificate validation and enhance security with just a few API calls.
             </Text>
-            <Link href="/api-docs" isExternal>
-              <Button colorScheme="blue" size="lg">
-                Explore API Documentation
-              </Button>
-            </Link>
+            <Box textAlign="center">
+              <Link href="/api-docs" isExternal>
+                <Button colorScheme="blue" size="lg">
+                  Explore API Documentation
+                </Button>
+              </Link>
+            </Box>
           </Box>
 
           <Box>
