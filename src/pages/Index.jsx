@@ -90,10 +90,10 @@ const Index = () => {
                     Basic
                   </Heading>
                   <Text fontSize="3xl" fontWeight="bold">
-                    $9.99
+                    $0
                   </Text>
-                  <Text>/month</Text>
-                  <Text>Up to 1,000 requests</Text>
+                  <Text>Unlimited requests</Text>
+                  <Text>Shared instance</Text>
                   <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
                     Add to Cart
                   </Button>
