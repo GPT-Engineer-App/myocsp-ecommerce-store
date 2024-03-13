@@ -132,6 +132,74 @@ const Index = () => {
               </GridItem>
             </Grid>
           </Box>
+
+          <Box>
+            <Grid templateColumns="repeat(4, 1fr)" gap={8}>
+              <GridItem>
+                <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={6}>
+                  <Heading as="h3" size="lg">
+                    Basic
+                  </Heading>
+                  <Text fontSize="3xl" fontWeight="bold">
+                    $0
+                  </Text>
+                  <Text>Unlimited requests</Text>
+                  <Text>Shared instance</Text>
+                  <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
+                    Add to Cart
+                  </Button>
+                </VStack>
+              </GridItem>
+              <GridItem>
+                <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={6}>
+                  <Heading as="h3" size="lg">
+                    Pro
+                  </Heading>
+                  <Text fontSize="3xl" fontWeight="bold">
+                    $15
+                  </Text>
+                  <Text>/month</Text>
+                  <Text>Dedicated instance</Text>
+                  <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
+                    Add to Cart
+                  </Button>
+                </VStack>
+              </GridItem>
+              <GridItem>
+                <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={6}>
+                  <Heading as="h3" size="lg">
+                    Enterprise
+                  </Heading>
+                  <Text fontSize="3xl" fontWeight="bold">
+                    $20
+                  </Text>
+                  <Text>/month per instance</Text>
+                  <Text>Unlimited instances</Text>
+                  <Text>Load balancing</Text>
+                  <Button colorScheme="blue" size="lg" mt={4}>
+                    Contact Us
+                  </Button>
+                </VStack>
+              </GridItem>
+              <GridItem>
+                <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={6}>
+                  <Heading as="h3" size="lg">
+                    Experimental
+                  </Heading>
+                  <Text fontSize="3xl" fontWeight="bold">
+                    $0
+                  </Text>
+                  <Text>/month</Text>
+                  <Text>Shared instance</Text>
+                  <Text>OCSPv2 support</Text>
+                  <Text>PQC support</Text>
+                  <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
+                    Add to Cart
+                  </Button>
+                </VStack>
+              </GridItem>
+            </Grid>
+          </Box>
         </VStack>
       </Container>
 
