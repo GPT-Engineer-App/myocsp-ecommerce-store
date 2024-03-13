@@ -105,10 +105,10 @@ const Index = () => {
                     Pro
                   </Heading>
                   <Text fontSize="3xl" fontWeight="bold">
-                    $49.99
+                    $15
                   </Text>
                   <Text>/month</Text>
-                  <Text>Up to 10,000 requests</Text>
+                  <Text>Dedicated instance</Text>
                   <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
                     Add to Cart
                   </Button>
@@ -120,9 +120,11 @@ const Index = () => {
                     Enterprise
                   </Heading>
                   <Text fontSize="3xl" fontWeight="bold">
-                    Custom
+                    $20
                   </Text>
-                  <Text>Unlimited requests</Text>
+                  <Text>/month per instance</Text>
+                  <Text>Unlimited instances</Text>
+                  <Text>Load balancing</Text>
                   <Button colorScheme="blue" size="lg" mt={4}>
                     Contact Us
                   </Button>
