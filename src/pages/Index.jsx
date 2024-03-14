@@ -15,7 +15,7 @@ const Index = () => {
         <Container maxW="container.lg">
           <HStack justify="space-between">
             <Heading as="h1" color="white" size="xl">
-              MyOCSP
+              Secure Your Digital World with MyOCSP
             </Heading>
             <Button leftIcon={<FaShoppingCart />} colorScheme="white" variant="outline">
               Cart ({cartItems})
@@ -81,10 +81,13 @@ const Index = () => {
 
           <Box>
             <Heading as="h2" size="xl" mb={4}>
-              Pricing
+              Select Your Plan
             </Heading>
             <Text fontSize="lg" mb={8}>
               <strong>MyOCSP</strong> streamlines digital certificate validation, offering real-time status checks without the hassle of managing Certificate Revocation Lists (CRLs). Our service integrates effortlessly with your existing security setup, ensuring rapid deployment and immediate efficiency gains.
+            </Text>
+            <Text fontSize="lg" mb={8}>
+              Choose the plan that best suits your needs and start securing your digital world with MyOCSP today.
             </Text>
             <Grid templateColumns="repeat(3, 1fr)" gap={8}>
               <GridItem>
@@ -137,7 +140,7 @@ const Index = () => {
           </Box>
 
           <Box>
-            <Grid templateColumns="repeat(4, 1fr)" gap={8}>
+            <Grid templateColumns="repeat(3, 1fr)" gap={8}>
               <GridItem>
                 <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={6}>
                   <Heading as="h3" size="lg">
