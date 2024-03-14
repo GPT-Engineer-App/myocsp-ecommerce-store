@@ -101,8 +101,7 @@ const Index = () => {
                   <Text fontSize="3xl" fontWeight="bold">
                     $0
                   </Text>
-                  <Text>Unlimited requests</Text>
-                  <Text>Shared instance</Text>
+                  <Text>Ideal for startups seeking an affordable solution to bolster communications security. Benefit from quick certificate status verifications, freeing you from CRL complexities.</Text>
                   <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
                     Add to Cart
                   </Button>
@@ -116,8 +115,7 @@ const Index = () => {
                   <Text fontSize="3xl" fontWeight="bold">
                     $15
                   </Text>
-                  <Text>/month</Text>
-                  <Text>Dedicated instance</Text>
+                  <Text>Crafted for businesses in growth mode requiring enhanced security capabilities. Includes all Basic benefits plus priority assistance and increased request capacity for seamless operations.</Text>
                   <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
                     Add to Cart
                   </Button>
@@ -131,9 +129,7 @@ const Index = () => {
                   <Text fontSize="3xl" fontWeight="bold">
                     $20
                   </Text>
-                  <Text>/month per instance</Text>
-                  <Text>Unlimited instances</Text>
-                  <Text>Load balancing</Text>
+                  <Text>Custom-built for large entities that demand the utmost in security and bespoke integration. Enjoy all Pro perks, along with unlimited requests, dedicated support, and tailored integration options.</Text>
                   <Button colorScheme="blue" size="lg" mt={4}>
                     Contact Us
                   </Button>
@@ -147,10 +143,7 @@ const Index = () => {
                   <Text fontSize="3xl" fontWeight="bold">
                     $0
                   </Text>
-                  <Text>/month</Text>
-                  <Text>Shared instance</Text>
-                  <Text>OCSPv2 support</Text>
-                  <Text>PQC support</Text>
+                  <Text>For innovators looking to stay ahead, offering access to cutting-edge features for testing: Range-Based Queries (OCSPv2), OCSP-over-DNS (ODIN), and Post-Quantum Cryptography (PQC). Dive into the future of security with our experimental tier designed for research and development teams.</Text>
                   <Button colorScheme="blue" size="lg" mt={4} onClick={addToCart}>
                     Add to Cart
                   </Button>
