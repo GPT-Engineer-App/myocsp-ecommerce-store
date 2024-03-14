@@ -92,9 +92,9 @@ const Index = () => {
           </Box>
 
           <Box>
-            <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+            <Grid templateColumns="repeat(4, 1fr)" gap={6}>
               <GridItem>
-                <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={6}>
+                <VStack align="center" border="1px" borderColor="gray.200" borderRadius="md" p={4}>
                   <Heading as="h3" size="lg">
                     Basic
                   </Heading>
